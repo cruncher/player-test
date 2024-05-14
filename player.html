@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://labs.cruncher.ch/scribe/build/scribe-music/module.css" />
+    <script type="module" src="https://labs.cruncher.ch/scribe/build/scribe-music/module.js"></script>
 </head>
 
 <body>
-    <audio>
-        <source type="audio/mpeg"
-            src="https://open.audio/api/v1/listen/0842e8b8-f4e3-4248-9f7e-f1a1c3050be6/?upload=b6e8fb15-5e5c-4d38-9103-0a70436a21bd">
-    </audio>
+    <scribe-music type="sequence" clef="treble" meter="4/4">
+        0 chord Dmaj    4
+        0 F#5 0.2 1
+        0 A4  0.2 1
+        0 D4  0.2 1
+    </scribe-music>
 </body>
 
 </html>
